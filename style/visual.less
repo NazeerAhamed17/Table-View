@@ -1,0 +1,44 @@
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+tr,
+th {
+  display: flex;
+  flex: 1;
+}
+
+th {
+  padding: 10px 0;
+  border: 1px solid black;
+  flex: 1;
+  justify-content: center;
+  word-wrap: break-word; /* Enable word wrapping */
+  overflow-wrap: break-word;
+}
+
+td {
+  flex: 1;
+  border: 1px solid black;
+  text-align: right;
+  word-wrap: break-word; /* Enable word wrapping */
+  overflow-wrap: break-word;
+}
+
+.selectContainer {
+  display: flex;
+  justify-content: start;
+  padding: 20px 0;
+}
