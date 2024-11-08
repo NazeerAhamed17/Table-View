@@ -9,7 +9,7 @@ const ReactCircleCard = ({ updateCallback }) => {
     updateCallback(setState);
   }, [updateCallback]);
 
-  React.useEffect(() => {}, [state.tableData]);
+  // React.useEffect(() => {}, [state.tableData]);
 
   return (
     <>
